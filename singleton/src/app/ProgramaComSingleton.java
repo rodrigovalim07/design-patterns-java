@@ -9,7 +9,8 @@ public class ProgramaComSingleton {
 	public static void main(String[] args) {
 		
 		// verificando se a instancia do objeto se mantém no mesmo local de memória
-		// tem como burlar e instanciar objetos com ponteiros diferentes
+		// tem como burlar e instanciar objetos com ponteiros diferentes,
+		// isso gera problemas na hora de ocupar os dias
 //		AgendaSingletonLAZY agenda1 = AgendaSingletonLAZY.getInstance();
 //		AgendaSingletonLAZY agenda2 = AgendaSingletonLAZY.getInstance();
 //		System.out.println(agenda1);
